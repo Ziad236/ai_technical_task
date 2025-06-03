@@ -1,28 +1,29 @@
-# 🧠 Python Code Generator with DeepSeek-R1-Distill-Qwen-1.5B
+# 🧠 AI Apps Collection: Python Code Generator & Image Captioning (Qwen-based)
 
-This project provides a web-based interface for generating Python code snippets using the `deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B` model. It allows users to input tasks in natural language and receive clean, executable Python code — without any explanation or extra formatting.
+This repository includes two AI-powered web apps built with Gradio and Hugging Face Transformers:
 
-Built using:
-- [Gradio](https://gradio.app) for the web UI
-- [Hugging Face Transformers](https://huggingface.co/docs/transformers) for loading and using the LLM
-- Python regex for extracting code blocks
+1. **Python Code Generator** — powered by `deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B`
+2. **Image Captioning App** — powered by `Qwen/Qwen-VL-Chat-Int4` with AutoGPTQ quantization
 
----
-
-## 🚀 Features
-
-- **Clean Python code only**: Model is prompted to return *only code*.
-- **Example prompts**: Select predefined tasks to see how it works.
-- **Customizable generation**: Adjust `temperature`, `top_p`, and `max_new_tokens`.
-- **Web-based UI**: Powered by Gradio, works in Jupyter, Colab, or local environments.
-- **Detailed README**: Includes setup instructions, usage guidelines, examples, and explanation of prompt engineering strategies.
+Both applications are optimized for GPU usage and provide user-friendly interfaces with adjustable generation parameters.
 
 ---
 
-## 🛠️ Installation
+## 📌 Project 1: Python Code Generator
 
-1. Clone the repository or copy the code into your environment.
-2. Install dependencies:
+Generate Python code from plain-language task descriptions using a powerful language model.
+
+### ✅ Features
+
+- Returns **only executable Python code**
+- Guided with **prompt examples** to enhance structure
+- Parameters: `temperature`, `top_p`, `max_new_tokens`
+- Built with [Gradio](https://gradio.app) and Hugging Face Transformers
+
+### 🔧 Installation
+
+Install dependencies using:
 
 ```bash
 pip install -r text_code_req.txt
+pip install -r imag_text_req.txt
