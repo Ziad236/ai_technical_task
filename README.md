@@ -25,4 +25,4 @@ Built using:
 2. Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install -r text_code_req.txt
