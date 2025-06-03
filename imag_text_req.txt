@@ -1,0 +1,13 @@
+pip uninstall -y torch torchvision torchaudio
+pip uninstall -y transformers transformers-stream-generator
+pip uninstall -y accelerate optimum auto-gptq
+pip uninstall -y einops gradio
+
+pip install -q torch==2.6.0+cu124 torchvision torchaudio==2.6.0+cu124 --index-url https://download.pytorch.org/whl/cu124
+pip install -q transformers==4.51.3
+pip install -q transformers-stream-generator==0.0.5
+pip install -q accelerate==1.5.2
+pip install -q optimum==1.25.3
+pip install -q einops
+pip install -q gradio
+pip install -q auto-gptq==0.7.1 --no-build-isolation
