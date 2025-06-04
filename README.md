@@ -8,8 +8,9 @@ This repository includes two AI-powered web apps built with Gradio and Hugging F
 Both applications are optimized for GPU usage and provide user-friendly interfaces with adjustable generation parameters.
 
 ---
-Example video: https://drive.google.com/file/d/1DCTNpkqjxJQquyULKED_Nnpg_yE78x_9/view?usp=sharing
-
+Example video:
+https://drive.google.com/file/d/1DCTNpkqjxJQquyULKED_Nnpg_yE78x_9/view?usp=sharing
+https://drive.google.com/file/d/1qamJ0_xMsf68Ykklp4GV8gnKfoYEBHzD/view?usp=sharing
 ---
 
 ## 📌 Project 1: Python Code Generator
